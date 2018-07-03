@@ -18,3 +18,6 @@ Bamazon is CLI app use in conjunction with MySQL that runs as a simple storefron
 * After placing the order the application will check if enough stock is available.
     * If there is enough stock available, the application will update database with new stock then confirm purchase and display price.
     * If there is NOT enough stock available the application will prevent purchase and display an error.
+
+* After placing an order (successfully or unsuccessfully) the user will be asked if they would like to make another purchase.
+    * If the user does not wish to make another purchase the application will quit.
