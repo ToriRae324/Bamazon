@@ -29,3 +29,7 @@ Bamazon is a CLI app used in conjunction with MySQL that runs as a simple storef
 
 
 To run this app, from the command line type `node bamazonCustomer.js`
+
+Walkthrough Video: ![Alt][1]
+
+[1]: /Bamazon-Walkthrough.gif "Walkthrough Video"
