@@ -29,10 +29,10 @@ Customer View allows a customer to view and purchase products listed within the 
     * If the user does not wish to make another purchase the application will quit.
 
 
-#### To run Customer View, ensure node modules are installed from the `package.json` file, then from the command line type `node bamazonCustomer.js`
+#### To run Customer View, from the command line type `node bamazonCustomer.js`
 
-##### Walkthrough Video: ![Alt][1]
-[1]: /Bamazon-Walkthrough.gif "Walkthrough Video"
+##### Customer View Demo Video: ![Alt][1]
+[1]: /Bamazon-Walkthrough.gif "Demo Video"
 
 
 
@@ -53,4 +53,7 @@ Manager View allows a user to perform manager level functions using the same pro
 * If a manager selects Add to Inventory, they will be prompted to select which product to update and how much inventory to add. After confirming the update, the inventory will be updated in the database.
 * If a manager selects Add New Product, they will be prompted to enter the following details to add a new product to the database: name, department, price, and quantity. After confirming the new product, it will be added to the database.
 
-#### To run Manager View, ensure node modules are installed from the `package.json` file, then from the command line type `node bamazonManager.js`
+#### To run Manager View, from the command line type `node bamazonManager.js`
+
+##### Manager View Demo Video: ![Alt][2]
+[2]: /BamazonManagerWalkthrough.gif "Demo Video"
