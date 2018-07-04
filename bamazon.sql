@@ -35,7 +35,6 @@ VALUES ("Kitty Litter", "Pets", 10.10, 25) ,
 ("Scented Oils", "Home", 9.99 , 75),
 ("Cat Condo", "Pets", 250.50, 10),
 ("Dresser Set", "Home", 499.99, 5),
-("Outdoor Lights", "Outdoors", 25.25, 15),
-("Hunter", "Outdoors", 500.00, 1);
+("Outdoor Lights", "Outdoors", 25.25, 15);
 
 SELECT * FROM products;

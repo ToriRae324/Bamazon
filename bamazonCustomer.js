@@ -56,12 +56,12 @@ function start() {
 
 // show table of all products
 function showProducts() {
-    connection.query("SELECT * FROM products", function (err, res) {
+    connection.query("SELECT * FROM products ORDER BY 3", function (err, res) {
         if (err) throw err;
         console.log("\nAll Products:\n")
         var table = new Table({
             head: ['Product Name'.cyan, 'Department'.cyan, 'Price'.cyan]
-          , colWidths: [25, 15, 7]
+          , colWidths: [25, 15, 10]
         });
         res.forEach(row => {
             table.push(

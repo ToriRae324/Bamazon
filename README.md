@@ -28,8 +28,23 @@ Bamazon is a CLI app used in conjunction with MySQL that runs as a simple storef
     * If the user does not wish to make another purchase the application will quit.
 
 
-To run this app, from the command line type `node bamazonCustomer.js`
+#### To run this app, from the command line type `node bamazonCustomer.js`
 
-Walkthrough Video: ![Alt][1]
-
+##### Walkthrough Video: ![Alt][1]
 [1]: /Bamazon-Walkthrough.gif "Walkthrough Video"
+
+
+### Manager View
+* Manager View allows a user to perform manager level functions using the same products in the database that the Customer View uses.
+
+* Managers have 4 functions they can perform within the app
+    * View Products for Sale
+    * View Low Inventory
+    * Add to Inventory
+    * Add New Product
+
+
+* If a manager selects View Products for Sale, the details for all products in the database are displayed including: the item IDs, names, departments, prices, and quantities.
+* If a manager selects View Low Inventory, all products with an inventory quantity lower than five are displayed.
+* If a manager selects Add to Inventory, they will be prompted to select which product to update and how much inventory to add. After confirming the update, the inventory will be updated in the database.
+* If a manager selects Add New Product, they will be prompted to enter the following details to add a new product to the database: name, department, price, and quantity. After confirming the new product, it will be added to the database.
