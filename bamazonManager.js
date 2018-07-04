@@ -86,7 +86,7 @@ function showLowInventory() {
         });
         res.forEach(row => {
             table.push(
-                [row.item_id, row.product_name, row.department_name, "$" + row.price, (row.stock_quantity).magenta],
+                [row.item_id, row.product_name, row.department_name, "$" + row.price, row.stock_quantity],
             );
         });
         console.log(table.toString());
