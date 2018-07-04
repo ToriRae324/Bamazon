@@ -4,6 +4,7 @@
 Bamazon is a CLI app used in conjunction with MySQL that runs as a simple storefront. The app displays products from the database, takes in orders from customers and depletes stock from the store's inventory.
 
 ### Customer View
+Customer View allows a customer to view and purchase products listed within the database.
 
 *  The products are populated from the database table that contains:
     * item_id (unique id for each product)
@@ -34,8 +35,11 @@ Bamazon is a CLI app used in conjunction with MySQL that runs as a simple storef
 [1]: /Bamazon-Walkthrough.gif "Walkthrough Video"
 
 
+
+
+
 ### Manager View
-* Manager View allows a user to perform manager level functions using the same products in the database that the Customer View uses.
+Manager View allows a user to perform manager level functions using the same products in the database that the Customer View uses.
 
 * Managers have 4 functions they can perform within the app
     * View Products for Sale
