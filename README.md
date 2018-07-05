@@ -75,3 +75,6 @@ Supervisor View allows a user to perform supervisor level functions using the sa
 * If a supervisor selects Create New Department, they will be prompted to enter the following details to add a new department to the database: department name, and department overhead. After confirming the new department, it will be added to the database.
 
 #### To run Supervisor View, from the command line type `node bamazonSupervisor.js`
+
+##### Supervisor View Demo Video: ![Alt][3]
+[3]: /images/BamazonSupervisorWalkthrough.gif "Demo Video"
