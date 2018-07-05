@@ -32,7 +32,7 @@ Customer View allows a customer to view and purchase products listed within the 
 #### To run Customer View, from the command line type `node bamazonCustomer.js`
 
 ##### Customer View Demo Video: ![Alt][1]
-[1]: /Bamazon-Walkthrough.gif "Demo Video"
+[1]: /images/Bamazon-Walkthrough.gif "Demo Video"
 
 
 
@@ -56,4 +56,22 @@ Manager View allows a user to perform manager level functions using the same pro
 #### To run Manager View, from the command line type `node bamazonManager.js`
 
 ##### Manager View Demo Video: ![Alt][2]
-[2]: /BamazonManagerWalkthrough.gif "Demo Video"
+[2]: /images/BamazonManagerWalkthrough.gif "Demo Video"
+
+
+### Supervisor View
+Supervisor View allows a user to perform supervisor level functions using the same products table in the database that the Customer View uses as well as a new department table.
+
+*  The department information is gathered from the database table that contains:
+    * department_id
+    * department_name
+    * over_head_costs
+
+* Supervisor have 2 functions they can perform within the app
+    * View Product Sales by Department
+    * Create New Department
+    
+* If a supervisor selects View Product Sales by Department, the product sales for each department in the database are displayed including: the department IDs, department names, over head costs, total product sales and total department profit.
+* If a supervisor selects Create New Department, they will be prompted to enter the following details to add a new department to the database: department name, and department overhead. After confirming the new department, it will be added to the database.
+
+#### To run Supervisor View, from the command line type `node bamazonSupervisor.js`

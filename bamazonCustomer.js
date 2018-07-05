@@ -127,10 +127,11 @@ function purchaseItem() {
                 if (chosenItem.stock_quantity > parseInt(answ.quantity)) {
                     var newStock = chosenItem.stock_quantity - parseInt(answ.quantity);
                     var purchasePrice = parseInt(answ.quantity) * chosenItem.price;
+                    var newProductSales = chosenItem.product_sales + purchasePrice;
                     connection.query(
-                        "UPDATE products SET stock_quantity = ? WHERE item_id = ?",
+                        "UPDATE products SET stock_quantity = ?, product_sales = ? WHERE item_id = ?",
                         [
-                            parseInt(newStock), parseInt(chosenItem.item_id)
+                            parseInt(newStock), parseInt(newProductSales), parseInt(chosenItem.item_id)
                         ],
                         function (err) {
                             if (err) throw err;
