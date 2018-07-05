@@ -1,7 +1,7 @@
 # Bamazon
 
 ## Overview
-Bamazon is a CLI app used in conjunction with MySQL that runs as a simple storefront. The app displays products from the database, takes in orders from customers and depletes stock from the store's inventory.
+Bamazon is a CLI app used in conjunction with MySQL that runs as a simple storefront. The app displays products from the database, takes in orders from customers and depletes stock from the store's inventory The app allows Managers and Supervisors to perform additional functions.
 
 ### Customer View
 Customer View allows a customer to view and purchase products listed within the database.
